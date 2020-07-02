@@ -23,8 +23,8 @@ public class App {
         ShortestStringProcessor processor = new ShortestStringProcessor();
         for (String inputString : INPUT_STRINGS) {
             log.info("Next input string:\n{}", inputString);
-            CharSequence longestString = processor.process(inputString);
-            log.info("Shortest substring:\n{}", longestString);
+            CharSequence shortestSubstring = processor.process(inputString);
+            log.info("Shortest substring:\n{}", shortestSubstring);
         }
         System.exit(0);
     }

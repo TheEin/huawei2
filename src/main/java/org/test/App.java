@@ -24,7 +24,7 @@ public class App {
         for (String inputString : INPUT_STRINGS) {
             log.info("Next input string:\n{}", inputString);
             CharSequence longestString = processor.process(inputString);
-            log.info("Longest substring:\n{}", longestString);
+            log.info("Shortest substring:\n{}", longestString);
         }
         System.exit(0);
     }
